@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_strtow - this function is splits a string into words.
  *  Repeat delimiters are ignored
  * @str: the input string
@@ -55,6 +56,7 @@ char **ft_strtow(char *str, char *del)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_strtow2 - this function is splits a string into words
  * @str: the input string
  * @del: the delimeter

@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_errputs - this function is prints an input string
  * @str: the string to be printed
  *
@@ -24,6 +25,7 @@ void ft_errputs(char *str)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_errputchar - this function is writes the character c to stderr
  * @c: This character to print
  *
@@ -46,6 +48,7 @@ int ft_errputchar(char c)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_putfd - this function is writes the character c to given fd
  * @c: This character to print
  * @fd: This filedescriptor to write to
@@ -69,6 +72,7 @@ int ft_putfd(char c, int fd)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_putsfd - this function is prints an input string
  * @str: this string to be printed
  * @fd: this filedescriptor to write to

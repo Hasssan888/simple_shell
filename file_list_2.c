@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_list_len - this function calcule length of linked list
  * @head: pointer to first node
  *
@@ -23,6 +24,7 @@ size_t ft_list_len(const list_x *head)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_list_to_strings - this function returns
  *  an array of strings of the list->str
  * @head: pointer to first node
@@ -61,6 +63,7 @@ char **ft_list_to_strings(list_x *head)
 
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_print_list - this function disply all elements of a list_x linked list
  * @head: this pointer to first node
  *
@@ -84,6 +87,7 @@ size_t ft_print_list(const list_x *head)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_node_starts_with - this function is
  *  returns node whose string starts with prefix
  * @node: this pointer to list head
@@ -107,6 +111,7 @@ list_x *ft_node_starts_with(list_x *node, char *prefix, char c)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_get_node_index - this function is gets the index of a node
  * @head: this pointer to list head
  * @node: this pointer to the node

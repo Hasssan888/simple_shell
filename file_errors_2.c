@@ -4,7 +4,9 @@
  * Code by - HASSAN BAKRIM, SOUFAIN CHANDAD
  */
 
+
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_erratoi - this function converts a string to an integer
  * @str: the string to be converted
  * Return: 0 if no numbers in string, converted number otherwise
@@ -33,6 +35,7 @@ int ft_erratoi(char *str)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_print_error - this functoion prints an error message
  * @info: this parameter & return info struct
  * @estr: this string containing specified error type
@@ -51,6 +54,7 @@ void ft_print_error(inf_y *info, char *estr)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_print_d - this function prints a decimal (integer) number (base 10)
  * @input: this input
  * @fd: this filedescriptor to write to
@@ -90,6 +94,7 @@ int ft_print_d(int input, int fd)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_convert_number - this function is converter function, a clone of itoa
  * @nbr: this number
  * @base: this base
@@ -126,6 +131,7 @@ char *ft_convert_number(long int nbr, int base, int flags)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_remove_comments - this function replaces first instance of '#' with '\0'
  * @buff: this address of the string to modify
  *

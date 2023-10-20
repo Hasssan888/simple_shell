@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_is_chain - this function istest
  *  if current char in buffer is a chain delimeter
  * @info: the parameter struct
@@ -41,6 +42,7 @@ int ft_is_chain(inf_y *info, char *buff, size_t *ptr)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_check_chain - this functio checks
  *   we should continue chaining based on last status
  * @info: the parameter struct
@@ -76,6 +78,7 @@ void ft_check_chain(inf_y *info, char *buff, size_t *ptr, size_t a, size_t l)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_replace_alias - this functin is
  *   replaces an aliases in the tokenized string
  * @info: the parameter struct
@@ -106,6 +109,7 @@ int ft_replace_alias(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_replace_vars - this function is replaces vars in the tokenized string
  * @info: the parameter struct
  *
@@ -147,6 +151,7 @@ int ft_replace_vars(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_replace_string - this function is replaces string
  * @old_str: this  address of old string
  * @new_str: this new string

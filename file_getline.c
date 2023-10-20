@@ -4,7 +4,9 @@
  * Code by - HASSAN BAKRIM, SOUFAIN CHANDAD
  */
 
+
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_input_buf - this functin buffers chained commands
  * @info: this parameter struct
  * @buff: this address of buffer
@@ -47,6 +49,7 @@ ssize_t ft_input_buf(inf_y *info, char **buff, size_t *l)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_get_input - this function is gets a line minus the newline
  * @info: this parameter struct
  *
@@ -92,6 +95,7 @@ ssize_t ft_get_input(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_read_buf - this function is reads a buffer
  * @info: this parameter struct
  * @buf: this buffer
@@ -111,6 +115,7 @@ ssize_t ft_read_buf(inf_y *info, char *buf, size_t *size)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_getline - this function gets the next line of input from STDIN
  * @info: this parameter struct
  * @ptr: this address of pointer to buffer, preallocated or NULL
@@ -158,6 +163,7 @@ int ft_getline(inf_y *info, char **ptr, size_t *len)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_sigintHandler - this function is blocks ctrl-C
  * @sig_num: this signal number
  *

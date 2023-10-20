@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_strncpy - this function is copies a string
  * @dest: this destination string to be copied to
  * @src: this source string
@@ -35,6 +36,7 @@ char *ft_strncpy(char *dest, char *src, int nbr)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_strncat - this function is concatenates two strings
  * @dest: this first string
  * @src: this second string
@@ -62,6 +64,7 @@ char *ft_strncat(char *dest, char *src, int nbr)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_strchr - this function is locates a character in a string
  * @str: the string to be parsed
  * @c: the character to look for

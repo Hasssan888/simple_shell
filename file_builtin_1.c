@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_myexit - this function is exits the shell
  * @info: this structure containing potential arguments. Used to maintain
  * constant function prototype.
@@ -34,6 +35,7 @@ int ft_myexit(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_mycd - this function is changes the current directory of the process
  * @info: this structure containing potential arguments. Used to maintain
  * constant function prototype.
@@ -84,6 +86,7 @@ int ft_mycd(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_myhelp - this funcchanges the current directory of the process
  * @info: this structure containing potential arguments. Used to maintain
  * constant function prototype.

@@ -6,6 +6,7 @@
 
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_interactive - this function returns true if shell is interactive mode
  * @info: this struct address
  *
@@ -17,6 +18,7 @@ int ft_interactive(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_is_delim - this function checks if character is a delimeter
  * @c: this char to check
  * @delim: this delimeter string
@@ -31,6 +33,7 @@ int ft_is_delim(char c, char *delim)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_isalpha - this function is checks for alphabetic character
  * @c: The character to input
  * Return: 1 if c is alphabetic, 0 otherwise
@@ -45,6 +48,7 @@ int ft_isalpha(int c)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_atoi - this function converts a string to an integer
  * @str: the string to be converted
  * Return: 0 if no numbers in string, converted number otherwise

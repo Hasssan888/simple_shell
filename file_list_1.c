@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_add_node - this function is adds a node to the start of the list
  * @head: this address of pointer to head node
  * @str: this string field of node
@@ -38,6 +39,7 @@ list_x *ft_add_node(list_x **head, const char *str, int nbr)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_add_node_end - this function is adds a node to the end of the list
  * @head: this address of pointer to head node
  * @str: this string field of node
@@ -79,6 +81,7 @@ list_x *ft_add_node_end(list_x **head, const char *str, int nbr)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_print_list_str - this function display
  *   only the str element of a list_t linked list
  * @head: this pointer to first node
@@ -100,6 +103,7 @@ size_t ft_print_list_str(const list_x *head)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_delete_node_at_index - this function deletes node at given index
  * @head: this address of pointer to first node
  * @index: this index of node to delete
@@ -140,6 +144,7 @@ int ft_delete_node_at_index(list_x **head, unsigned int index)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_free_list - this function frees all nodes of a list
  * @head_ptr: this address of pointer to head node
  *

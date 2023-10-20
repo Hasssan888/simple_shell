@@ -1,10 +1,8 @@
 #include "shell.h"
 
-/*
- * Code by - HASSAN BAKRIM, SOUFAIN CHANDAD
- */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_bfree - this function frees a pointer and NULLs the address
  * @p: address of the pointer to free
  *

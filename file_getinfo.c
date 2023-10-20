@@ -1,6 +1,7 @@
 #include "shell.h"
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_clear_info - this function is initializes info_t struct
  * @info: this struct address
  */
@@ -13,6 +14,7 @@ void ft_clear_info(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_set_info - this is initializes info_t struct
  * @info: this struct address
  * @av: this argument vector
@@ -44,6 +46,7 @@ void ft_set_info(inf_y *info, char **av)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_free_info - this function is frees info_t struct fields
  * @info: this struct address
  * @all: this true if freeing all fields

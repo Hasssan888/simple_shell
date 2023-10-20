@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_get_history_file - this function is gets the history file
  * @info: this parameter struct
  *
@@ -29,6 +30,7 @@ char *ft_get_history_file(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_write_history - this function creates a file,
  *   or appends to an existing file
  * @info: this parameter struct
@@ -59,6 +61,7 @@ int ft_write_history(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_read_history - this function is reads history from file
  * @info: this parameter struct
  *
@@ -108,6 +111,7 @@ int ft_read_history(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_build_history_list - this function adds entry to a history linked list
  * @info: this structure containing potential arguments. Used to maintain
  * @buff: this buffer
@@ -129,6 +133,7 @@ int ft_build_history_list(inf_y *info, char *buff, int count_len)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_renumber_history - this function renumbers
  * the history linked list after changes
  * @info: this structure containing potential arguments. Used to maintain

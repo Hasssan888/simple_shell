@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_is_cmd - this function is determines if a file is an executable command
  * @info: this info struct
  * @path: this path to the file
@@ -27,6 +28,7 @@ int ft_is_cmd(inf_y *info, char *path)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_dup_chars - this function is duplicates characters
  * @path_str: this PATH string
  * @star: this starting index
@@ -47,6 +49,7 @@ char *ft_dup_chars(char *path_str, int star, int end)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_find_path - this function is finds this cmd in the PATH string
  * @info: this info struct
  * @path_str: this PATH string

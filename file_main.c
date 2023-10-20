@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * main - this entry point
  * @arc: this argument count
  * @arv: this argument vector

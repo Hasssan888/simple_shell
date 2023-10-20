@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_strlen - this function is returns the length of a string
  * @str: the string whose length to check
  *
@@ -23,6 +24,7 @@ int ft_strlen(char *str)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_strcmp - this function performs lexicogarphic comparison of two strangs.
  * @str1: the first string
  * @str2: the second string
@@ -46,6 +48,7 @@ int ft_strcmp(char *str1, char *str2)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_starts_with - this function is checks if needle starts with haystack
  * @hstack: string to search
  * @need: the substring to find
@@ -61,6 +64,7 @@ char *ft_starts_with(const char *hstack, const char *need)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_strcat - this function concatenates two strings
  * @dest: the destination buffer
  * @src: the source buffer

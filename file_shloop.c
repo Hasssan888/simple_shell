@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_hsh - main shell loop
  * @arv: the argument vector from main()
  * @info: the parameter & return info struct
@@ -48,6 +49,7 @@ int ft_hsh(inf_y *info, char **arv)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_find_builtin - finds a builtin command
  * @info: the parameter & return info struct
  *
@@ -82,6 +84,7 @@ int ft_find_builtin(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_find_cmd - this function is finds a command in PATH
  * @info: the parameter & return info struct
  *
@@ -124,6 +127,7 @@ void ft_find_cmd(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_fork_cmd - this function is forks a an exec thread to run cmd
  * @info: the parameter & return info struct
  *

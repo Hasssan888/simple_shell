@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_memset - this function is fills memory with a constant byte
  * @p: the pointer to the memory area
  * @b: the byte to fill *s with
@@ -21,6 +22,7 @@ char *ft_memset(char *p, char b, unsigned int n)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_ffree - this function is frees a string of strings
  * @pp_str: string of strings
  */
@@ -36,6 +38,7 @@ void ft_ffree(char **pp_str)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_realloc - this function reallocates a block of memory
  * @ptr1: this pointer to previous malloc'ated block
  * @old_size: this byte size of previous block

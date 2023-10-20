@@ -16,20 +16,23 @@
 #include <fcntl.h>
 #include <string.h>
 
+
+#define USE_GETLINE 0
+#define USE_STRTOK 0
+
+#define CMD_NORM        0
+#define CMD_OR          1
+#define CMD_AND         2
+#define CMD_CHAIN       3
+
 #define READ_BUF_SIZE 1024
 #define WRITE_BUF_SIZE 1024
 #define BUF_FLUSH -1
 
-#define CMD_NORM	0
-#define CMD_OR		1
-#define CMD_AND		2
-#define CMD_CHAIN	3
 
 #define CONVERT_LOWERCASE	1
 #define CONVERT_UNSIGNED	2
 
-#define USE_GETLINE 0
-#define USE_STRTOK 0
 
 #define HIST_FILE	".simple_shell_history"
 #define HIST_MAX	4096
@@ -38,6 +41,7 @@ extern char **environ;
 
 
 /**
+ * Code by - HASSAN BAKRIM , SOUFAIN CHANDAD
  * struct liststr - singly linked list
  * @num: the number field
  * @str: a string
@@ -51,6 +55,7 @@ typedef struct liststr
 } list_x;
 
 /**
+ * Code by - HASSAN BAKRIM , SOUFAIN CHANDAD
  * struct passinfo - contains pseudo-arguements to pass into a function,
  * allowing uniform prototype for function pointer struct
  * @arg: a string generated from getline containing arguements
@@ -100,6 +105,7 @@ typedef struct passinfo
 	0, 0, 0}
 
 /**
+ * Code by - HASSAN BAKRIM , SOUFAIN CHANDAD
  * struct builtin - contains a builtin string and related function
  * @type: the builtin command flag
  * @func: the function
@@ -111,10 +117,6 @@ typedef struct builtin
 } builtin_table;
 
 
-int ft_hsh(inf_y *, char **);
-int ft_find_builtin(inf_y *);
-void ft_find_cmd(inf_y *);
-void ft_fork_cmd(inf_y *);
 
 int ft_is_cmd(inf_y *, char *);
 char *ft_dup_chars(char *, int, int);
@@ -136,6 +138,11 @@ char *ft_strcpy(char *, char *);
 char *ft_strdup(const char *);
 void ft_puts(char *);
 int ft_putchar(char);
+
+int ft_hsh(inf_y *, char **);
+int ft_find_builtin(inf_y *);
+void ft_find_cmd(inf_y *);
+void ft_fork_cmd(inf_y *);
 
 char *ft_strncpy(char *, char *, int);
 char *ft_strncat(char *, char *, int);
@@ -186,6 +193,12 @@ char **ft_get_environ(inf_y *);
 int ft_unsetenv(inf_y *, char *);
 int ft_setenv(inf_y *, char *, char *);
 
+int ft_is_chain(inf_y *, char *, size_t *);
+void ft_check_chain(inf_y *, char *, size_t *, size_t, size_t);
+int ft_replace_alias(inf_y *);
+int ft_replace_vars(inf_y *);
+int ft_replace_string(char **, char *);
+
 char *ft_get_history_file(inf_y *info);
 int ft_write_history(inf_y *info);
 int ft_read_history(inf_y *info);
@@ -204,11 +217,6 @@ size_t ft_print_list(const list_x *);
 list_x *ft_node_starts_with(list_x *, char *, char);
 ssize_t ft_get_node_index(list_x *, list_x *);
 
-int ft_is_chain(inf_y *, char *, size_t *);
-void ft_check_chain(inf_y *, char *, size_t *, size_t, size_t);
-int ft_replace_alias(inf_y *);
-int ft_replace_vars(inf_y *);
-int ft_replace_string(char **, char *);
 
 #endif
 

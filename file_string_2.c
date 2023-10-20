@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_strcpy - this function is copies a string
  * @dest: the destination
  * @src: the source
@@ -27,6 +28,7 @@ char *ft_strcpy(char *dest, char *src)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_strdup - fubction is duplicates a string
  * @str: the string to duplicate
  *
@@ -50,6 +52,7 @@ char *ft_strdup(const char *str)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_puts - this function is prints an input string
  * @str: the string to be printed
  *
@@ -69,6 +72,7 @@ void ft_puts(char *str)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_putchar - this function writes the character c to stdout
  * @c: The character to print
  *

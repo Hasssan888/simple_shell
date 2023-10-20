@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_myenv - this function is prints the current environment
  * @info: this structure containing potential arguments. Used to maintain
  *          constant function prototype.
@@ -17,6 +18,7 @@ int ft_myenv(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_getenv - this function is gets the value of an environ variable
  * @info: this structure containing potential arguments. Used to maintain
  * @name: this env var name
@@ -39,6 +41,7 @@ char *ft_getenv(inf_y *info, const char *name)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_mysetenv - this funnction initialize a new environment variable,
  *             or modify an existing one
  * @info: this structure containing potential arguments. Used to maintain
@@ -58,6 +61,7 @@ int ft_mysetenv(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_myunsetenv - this function remove an environment variable
  * @info: this structure containing potential arguments. Used to maintain
  *        constant function prototype.
@@ -79,6 +83,7 @@ int ft_myunsetenv(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_populate_env_list - this function ia populates env linked list
  * @info: this structure containing potential arguments. Used to maintain
  *          constant function prototype.

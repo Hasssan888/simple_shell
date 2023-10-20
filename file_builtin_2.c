@@ -1,6 +1,7 @@
 #include "shell.h"
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_myhistory - this function displays the history list,
  * one command by line, precededwith line numbers, starting at 0.
  * @info: Structure containing potential arguments. Used to maintain
@@ -14,6 +15,7 @@ int ft_myhistory(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_unset_alias - this function is sets alias to string
  * @info: this parameter struct
  * @str: this string alias
@@ -37,6 +39,7 @@ int ft_unset_alias(inf_y *info, char *str)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_set_alias - this function is sets alias to string
  * @info: this parameter struct
  * @str: this string alias
@@ -57,6 +60,7 @@ int ft_set_alias(inf_y *info, char *str)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_print_alias - this function prints an alias string
  * @node: this alias node
  *
@@ -80,6 +84,7 @@ int ft_print_alias(list_x *node)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_myalias - this function is mimics the alias builtin (man alias)
  * @info: this structure containing potential arguments. Used to maintain
  *          constant function prototype.

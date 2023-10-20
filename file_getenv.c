@@ -5,6 +5,7 @@
  */
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_get_environ - this function returns the string array copy of our environ
  * @info: this structure containing potential arguments. Used to maintain
  *          constant function prototype.
@@ -22,6 +23,7 @@ char **ft_get_environ(inf_y *info)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_unsetenv - this function is remove an environment variable
  * @info: this structure containing potential arguments. Used to maintain
  *        constant function prototype.
@@ -54,6 +56,7 @@ int ft_unsetenv(inf_y *info, char *var)
 }
 
 /**
+ * Code by - HASSAN BAKRIM, SOUFAIN HANDAD
  * ft_setenv - this function initialize a new environment variable,
  *             or modify an existing one
  * @info: this structure containing potential arguments. Used to maintain
